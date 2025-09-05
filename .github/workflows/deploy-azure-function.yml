@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: './Daily_load_function' # your function folder
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: './etl_function' # your function folder
   PYTHON_VERSION: '3.10' # Python version supported by Azure Functions
 
 jobs:
